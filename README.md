@@ -4,6 +4,7 @@ Getting started with Ansible via Anaconda
 * Installs a local Python 2.7 & 3.5 runtime with Anaconda
 * Creates a Python 2.7 Conda environment with Ansible installed therein
 * Useful in environments lacking a modern Python run time
+* If you are behind a network proxy please edit proxify.sh to suit!
 
 ```
 localhost{arothste}/home/arothste/ansible-bootstrap=> ./boot.sh 
