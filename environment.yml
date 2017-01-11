@@ -1,5 +1,6 @@
 ---
 dependencies:
-- cryptography
-- pip:
-  - ansible
+  - python=2.7
+  - cryptography
+  - pip:
+    - ansible

@@ -32,7 +32,7 @@ export PATH=~/anaconda3/bin:$PATH
 if [ ! -e ~/anaconda3/envs/ansible ]
 then
     echo creating the ansible conda env...
-    conda env create -f=environment.yml -q -n ansible python=2.7
+    conda env create -f=environment.yml -q -n ansible
 fi
 
 echo Run 'source activate ansible' to enable the conda environment with Ansible therein
